@@ -1,0 +1,11 @@
+#logo {
+	position: absolute;
+	margin: 0 auto;
+
+}
+
+/* Top menu found on Googe homepage*/
+#topMenu li {
+	display: inline;
+	color: #484848;
+}
