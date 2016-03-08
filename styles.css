@@ -1,11 +1,46 @@
-#logo {
-	position: absolute;
-	margin: 0 auto;
-
+body, html{
+	width: 100%;
+	height: 100%;
 }
 
+#GoogleLogo {
+	padding-top: 5em;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+
+
 /* Top menu found on Googe homepage*/
-#topMenu li {
-	display: inline;
+
+
+#topNav ul {
+	float: right;
+	font-size: 14px;
+}
+
+#topNav li {
+	font-family: Arial;
+	font-size: 12px;
 	color: #484848;
+	padding-right: 5px;
+	display: inline;
+}
+
+#topNav a:link {
+	color: #484848;
+	text-decoration: none;
+}
+
+#topNav a:visited {
+	color: #484848;
+}
+
+#topNav a:hover {
+	text-decoration: underline;
+}
+
+#topNav a:active{
+	text-decoration: underline;
 }
