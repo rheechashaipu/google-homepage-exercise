@@ -1,17 +1,17 @@
 /*Google logo*/
 
 .GoogleLogo {
-	padding-top: 5em;
+	padding-top: 7em;
 	display: block;
 	text-align: center;
 	clear: both;
 	/*border:solid;*/
 }
 
-
 /*Search bar */
-#searchDiv {
-	padding-top: 10px;
+
+#searchBar {
+	padding-top: 20px;
 	display:block;
 	margin: auto;
 }
@@ -55,18 +55,38 @@ form input {
 }
 
 /*Make placeholder text disappear when clicked on
-and when text it present. Credit goes to CSSTricks for this one!*/
+and when text it present. Credit for this CSS effect goes to CSSTricks*/
 [placeholder]:focus::-webkit-input-placeholder {
 	color: transparent;
 }
-
-
 
 /* Top menu found on Googe homepage*/
 
 #topNav ul {
 	float: right;
 	font-size: 14px;
+	/*border: dashed;*/
+}
+
+#topNav span.appIcon {
+	display: inline-block;
+	background: url('images/alert.png') no-repeat -139px -45px;
+	width: 16px;
+	height: 16px;
+}
+
+#topNav span.alert {
+	display: inline-block;
+	background: url('images/alert.png') no-repeat -279px -42px;
+	width: 20px;
+	height: 23px;
+}
+
+#topNav span.accountCircle {
+	display: inline-block;
+	background: url('images/accountCircle.svg') no-repeat;
+	width: 22px;
+	height: 25px;
 }
 
 #topNav li {
@@ -75,7 +95,7 @@ and when text it present. Credit goes to CSSTricks for this one!*/
 	font-family: Arial;
 	font-size: 12px;
 	color: #484848;
-	padding-right: 5px;
+	padding-right: 15px;
 	display: inline;
 }
 
@@ -101,7 +121,7 @@ and when text it present. Credit goes to CSSTricks for this one!*/
 	height: 10%;
 }
 
-/* Bottom links*/
+/* Bottom left links*/
 
 .bottomLeft{
 	position: absolute;
@@ -109,13 +129,16 @@ and when text it present. Credit goes to CSSTricks for this one!*/
 	bottom:0;
 	left:0;
 }
+.bottomLeft ul {
+	padding-left: 20px
+}
 
 .bottomLeft li{
 	display: inline;
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 13px;
 	color: #484848;
-	padding-left: 25px;
+	padding-right: 20px;
 	margin-left: 5px;
 
 }
@@ -132,6 +155,8 @@ and when text it present. Credit goes to CSSTricks for this one!*/
 	text-decoration: underline;
 }
 
+/*Bottom right links*/
+
 .bottomRight{
 	position: absolute;
 	float:right;
@@ -142,7 +167,7 @@ and when text it present. Credit goes to CSSTricks for this one!*/
 .bottomRight li{
 	display: inline;
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 13px;
 	color: #484848;
 	padding-right: 25px;
 	margin-right: 5px;
